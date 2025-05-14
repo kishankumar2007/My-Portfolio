@@ -87,7 +87,7 @@ function Portfolio() {
         <div className={`projects grid md:grid-cols-3 grid-cols-1 sm:grid-cols-2  gap-5 border-1   p-5 max-w-7xl w-full mx-auto mt-10 justify-center  transition-all ease duration-500 ${activeTab === 'Project'? '':'hidden' } `}>
           {projects.map((project, idx) => (
             <div key={idx} className={`project p-5 max-w-96 mx-auto md:mx-0  rounded-2xl text-white max-h-[500px] h-full text-start bg-gray-800/50  border border-white/10 hover:scale-102 transition-all ease duration-300 ${idx > cardView ? 'hidden':''}`}>
-              <div className="projectImg rounded-xl w-full h-30 bg-red-400 overflow-hidden mb-10 ">
+              <div className="projectImg rounded-xl w-full h-30 overflow-hidden mb-10 ">
                 <img className='object-cover hover:scale-110 transition-all ease duration-300 w-full h-full' src={project.image} alt={`image${idx + 1}`} />
               </div>
               <h1 className='text-xl font-semibold bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 bg-clip-text text-transparent mb-2'>{project.title}</h1>

@@ -32,7 +32,7 @@ function Home() {
               </h1>
             ))}
           </div>
-          <div className="button flex sm:gap-10 gap-5 pl-2">
+          <div className="button flex sm:gap-10 gap-5 pl-2 sm:mx-0 mx-auto">
            <Link to='/portfolio'> <button className="text-white py-2  px-10 rounded hover:scale-105 transition-transform duration-300 border border-white/10 shadow bg-transparent shadow-violet-500">
               Projects
             </button>

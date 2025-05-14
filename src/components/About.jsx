@@ -22,7 +22,7 @@ function About() {
       subtitle: "Continuous learning journey"
     }]
   return (
-    <div className='about w-full min-h-screen bg-[#030014] text-center mt-15 pt-20'>
+    <div className='about w-full min-h-screen bg-[#030014] text-center mt-15 pt-10 mb-5'>
       <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-violet-500 sm:text-6xl text-3xl font-semibold transition-all ease duration-700'>About Me</h1>
       <p className='text-[#e2d3fd] max-w-3xl w-full mx-auto mt-5 sm:text-xl px-3'>Hello, I'm <span className='text-white'>Kishan Kumar</span> passionate about building smart and scalable web applications. I've completed a front end development course and constantly explore new technologies to refine my skills. Focused on continuous learning, I aim to transition into the IT industry by 2027 and eventually move towards AI.</p>
       <div className="buttons mt-10 mx-auto flex flex-wrap max-w-96 justify-center gap-2">

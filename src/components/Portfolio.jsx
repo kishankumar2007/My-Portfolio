@@ -2,7 +2,7 @@ import {  useState } from 'react'
 import TodoList from '../assets/TodoList.png'
 import { LiaCertificateSolid } from "react-icons/lia";
 import FullStackCertificate from '../assets/full-stack.png'
-import Js_basic from '../assets/JS_basic'
+import Js_basic from '../assets/JS_basic.png'
 import html from '../assets/html.svg'
 import css from '../assets/css.svg'
 import js from '../assets/javascript.svg'

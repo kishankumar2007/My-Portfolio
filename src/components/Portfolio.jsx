@@ -3,6 +3,7 @@ import TodoList from '../assets/TodoList.png'
 import { LiaCertificateSolid } from "react-icons/lia";
 import FullStackCertificate from '../assets/full-stack.png'
 import Js_basic from '../assets/JS_basic.png'
+import blogapp from '../assets/blogapp.png'
 import html from '../assets/html.svg'
 import css from '../assets/css.svg'
 import js from '../assets/javascript.svg'
@@ -18,24 +19,11 @@ function Portfolio() {
       demo:'https://react-todo-list-beta-sable.vercel.app/'
     }, 
     {
-      image: TodoList,
-      title: 'Todo List',
-      description: 'Effortlessly manage tasks: add, delete, complete. Instantly see summaries for all, completed, and pending items.',
-      demo:'https://react-todo-list-beta-sable.vercel.app/'
-    }, 
-    {
-      image: TodoList,
-      title: 'Todo List',
-      description: 'Effortlessly manage tasks: add, delete, complete. Instantly see summaries for all, completed, and pending items.',
-      demo:'https://react-todo-list-beta-sable.vercel.app/'
-    }, 
-    {
-      image: TodoList,
-      title: 'Todo List',
-      description: 'Effortlessly manage tasks: add, delete, complete. Instantly see summaries for all, completed, and pending items.',
-      demo:'https://react-todo-list-beta-sable.vercel.app/'
-    }, 
-
+      image: blogapp,
+      title: 'Blog App',
+      description: 'A modern React blog app with Appwrite backend, featuring login, signup, logout, create, and read blog functionality.',
+      demo:'https://apnablog-app.vercel.app/'
+    },
   ])
   const [techStack, setTechStack] = useState([
     {

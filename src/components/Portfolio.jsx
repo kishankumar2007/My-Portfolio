@@ -3,6 +3,7 @@ import TodoList from '../assets/TodoList.png'
 import { LiaCertificateSolid } from "react-icons/lia";
 import FullStackCertificate from '../assets/full-stack.png'
 import Js_basic from '../assets/JS_basic.png'
+import ReactJSCertificate from "../assets/ReactJS.png"
 import blogapp from '../assets/blogapp.png'
 import html from '../assets/html.svg'
 import css from '../assets/css.svg'
@@ -92,10 +93,10 @@ function Portfolio() {
         
         <div className={`Certificates projects grid md:grid-cols-3 grid-cols-1 sm:grid-cols-2  gap-5 border-1   p-5 max-w-7xl w-full mx-auto mt-10 justify-center  transition-all ease duration-500 ${activeTab === "Certificate"? '':'hidden'}`}>
           <div className="Certificate-image border-[20px] border-[#141E38]  rounded-lg max-w-96 hover:scale-105 transition-transform duration-300">
-            <img   src={Js_basic} alt="" />
+            <img   src={Js_basic} alt="JsCertificate" />
           </div>
           <div className="Certificate-image border-[20px] border-[#141E38]  rounded-lg max-w-96 hover:scale-105 transition-transform duration-300">
-            <img   src={FullStackCertificate} alt="" />
+            <img   src={ReactJSCertificate} alt="ReactJSCertificate" />
           </div>
           <div className="Certificate-image border-[20px] border-[#141E38]  rounded-lg max-w-96 hover:scale-105 transition-transform duration-300">
             <img   src={FullStackCertificate} alt="" />

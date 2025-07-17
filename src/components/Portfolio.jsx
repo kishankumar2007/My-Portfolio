@@ -1,7 +1,6 @@
 import {  useState } from 'react'
 import TodoList from '../assets/TodoList.png'
-import { LiaCertificateSolid } from "react-icons/lia";
-import FullStackCertificate from '../assets/full-stack.png'
+import ReactNativeCertificate from '../assets/ReactNativeCertificate.png'
 import Js_basic from '../assets/JS_basic.png'
 import ReactJSCertificate from "../assets/ReactJS.png"
 import blogapp from '../assets/blogapp.png'
@@ -18,7 +17,7 @@ function Portfolio() {
       title: 'Todo List',
       description: 'Effortlessly manage tasks: add, delete, complete. Instantly see summaries for all, completed, and pending items.',
       demo:'https://react-todo-list-beta-sable.vercel.app/'
-    }, 
+    },
     {
       image: blogapp,
       title: 'Blog App',
@@ -49,7 +48,7 @@ function Portfolio() {
     },
     {
       image: reactjs,
-      name: "React"
+      name: "React + Native"
     }
   ])
    const [activeTab, setActiveTab] = useState("Project")
@@ -90,16 +89,18 @@ function Portfolio() {
             </div>
           ))}
         </div>
-        
+
         <div className={`Certificates projects grid md:grid-cols-3 grid-cols-1 sm:grid-cols-2  gap-5 border-1   p-5 max-w-7xl w-full mx-auto mt-10 justify-center  transition-all ease duration-500 ${activeTab === "Certificate"? '':'hidden'}`}>
-          <div className="Certificate-image border-[20px] border-[#141E38]  rounded-lg max-w-96 hover:scale-105 transition-transform duration-300">
-            <img   src={Js_basic} alt="JsCertificate" />
+          <div className="Certificate-image border-[20px] border-[#141E38] rounded-lg max-w-96 hover:scale-105 transition-transform duration-300">
+            <img  className='h-full w-full' src={Js_basic} alt="JsCertificate" />
           </div>
-          <div className="Certificate-image border-[20px] border-[#141E38]  rounded-lg max-w-96 hover:scale-105 transition-transform duration-300">
-            <img   src={ReactJSCertificate} alt="ReactJSCertificate" />
+
+          <div className="Certificate-image border-[20px] border-[#141E38] rounded-lg max-w-96 hover:scale-105 transition-transform duration-300">
+            <img  className='h-full w-full' src={ReactJSCertificate} alt="ReactJSCertificate" />
           </div>
+
           <div className="Certificate-image border-[20px] border-[#141E38]  rounded-lg max-w-96 hover:scale-105 transition-transform duration-300">
-            <img   src={FullStackCertificate} alt="" />
+            <img className='h-full w-full' src={ReactNativeCertificate} alt="ReactNativeCertificate" />
           </div>
         </div>
 

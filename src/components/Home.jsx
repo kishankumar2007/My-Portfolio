@@ -11,7 +11,7 @@ function Home() {
         <div className=" flex flex-col gap-6 w-full shrink-0">
           <div className="stream mt-10">
             <h1 className="sm:text-7xl text-6xl  font-bold text-white sm:pl-0 pl-2">
-              Front End
+              Full Stack
             </h1>
             <h1 className="sm:text-7xl text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-950 sm:pl-0 pl-2 ">
               Developer
@@ -40,7 +40,7 @@ function Home() {
            <Link to='/contact'><button className="text-white py-2 px-10 rounded hover:scale-105 transition-transform duration-300  border border-white/10 shadow bg-transparent shadow-violet-500">
               Contact
             </button>
-            </Link> 
+            </Link>
           </div>
           <div className="socal flex justify-between px-10 text-2xl items-center h-30 w-70">
             <a  className="border-2 p-4 rounded-full hover:bg-white/10 border-white/5 transition-transform duration-300" href="https://github.com/mrperfectvip">
